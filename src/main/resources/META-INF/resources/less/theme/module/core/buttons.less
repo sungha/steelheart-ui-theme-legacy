@@ -1,0 +1,45 @@
+
+.btn {
+
+	&.btn-square {
+		border-radius: 0;
+	}
+
+
+	&.btn-rounded {
+		border-radius: 30px;
+	}
+
+	&.btn-outlined {
+		border-width: 2px;
+		background-color: #fff;
+		color: #000;
+	}
+
+
+	&.btn-embossed {
+		box-shadow: 0 4px #ab3c3c;
+
+		&.btn-primary {
+			box-shadow: 0 4px darken(@brand-primary, 20%);
+		}
+		&.btn-info {
+			box-shadow: 0 4px darken(@brand-info, 20%);
+		}
+		&.btn-warning {
+			box-shadow: 0 4px darken(@brand-warning, 20%);
+		}
+		&.btn-danger {
+			box-shadow: 0 4px darken(@brand-danger, 20%);
+		}
+		&.btn-success {
+			box-shadow: 0 4px darken(@brand-success, 20%);
+		}
+	}
+
+	.btn-danger {
+		.button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+	}
+
+}
+
