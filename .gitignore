@@ -40,5 +40,5 @@ target/
 node/
 node_modules/
 
-src/main/resources/META-INF/resources/css/
+src/main/resources/META-INF/resources/theme/*/css/
 src/main/resources/META-INF/resources/lib/
